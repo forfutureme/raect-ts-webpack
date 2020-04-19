@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppExample组件测试 AppExample渲染测试 1`] = `
+<div
+  className="app-example"
+>
+  it is a AppExample
+</div>
+`;

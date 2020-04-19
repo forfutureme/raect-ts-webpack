@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloImage测试 测试渲染 1`] = `
+<div>
+  <h2>
+    HelloImage
+  </h2>
+  <div>
+    <h3>
+      Png
+    </h3>
+    <img
+      src="assets-resources-file"
+      width="100"
+    />
+  </div>
+  <div>
+    <h3>
+      jpg
+    </h3>
+    <img
+      src="assets-resources-file"
+      width="100"
+    />
+  </div>
+  <div>
+    <h3>
+      svg
+    </h3>
+    <svg>
+      <use
+        xlinkHref="#qq"
+      />
+    </svg>
+  </div>
+</div>
+`;

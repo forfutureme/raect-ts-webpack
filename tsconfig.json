@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esNext",
+    "noResolve": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "jsx": "react", 
+    "outDir": "dist",
+    "declaration": true, // 自动生成d.ts文件
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@lib/*": ["src/lib/*"],
+      "@customTypes/*": ["src/customTypes/*"],
+      "@components/*":["src/components/*"],
+      "@view/*": ["src/view/*"],
+      "@assets/*":["src/assets/*"],
+      "@store/*":["src/store/*"],
+      "@router/*":["src/router/*"],
+      "@utils/*": ["src/utils/*"],
+      "@image/*": ["src/assets/image/*"],
+      "@svg/*": ["src/assets/svg/*"],
+      "@scss/*": ["src/assets/scss/*"],
+    }
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*",
+    "src/App.tsx"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/__test__/**/*"]
+}

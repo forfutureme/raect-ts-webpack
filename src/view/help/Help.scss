@@ -1,0 +1,14 @@
+/**
+ * @format
+ * @Author: huweijian
+ * @Date: 2020-04-17 11:10:19
+ * @Desc: Help页面样式
+ */
+:root {
+  --mainColor: #f00;
+}
+.help {
+  display: flex;
+  // display: grid;
+  color: var(--mainColor);
+}
