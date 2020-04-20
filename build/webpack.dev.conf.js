@@ -30,10 +30,10 @@ module.exports = Object.assign({}, config, {
   //   path: path.resolve(__dirname, 'public/')
   // },
   plugins: config.plugins.concat([
-    // new HtmlWebpackPlugin({
-    //   title: require('../package.json').description,
-    //   template: './index.html'
-    // })
+    // 内置环境变量
+    new webpack.DefinePlugin({
+      ENV: JSON.stringify('dev')
+    })
   ]),
   // 持续监听文件变化 确保实时编译
   watch: true,

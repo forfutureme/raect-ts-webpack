@@ -20,6 +20,7 @@ import AppExample from '@components/appExample/AppExample'
 import HelpDoOnce from './components/HelpDoOnce'
 import HelpDoTimes from './components/HelpDoTimes'
 import HelpPropsChangeF from './components/HelpPropsChangeF'
+import HelpFCallCFunc from './components/HelpFCallCFunc'
 
 import {useSelector, useDispatch} from 'react-redux'
 // import {effect} from '@store/index'
@@ -57,6 +58,7 @@ const Help: React.FC = () => {
       <HelpDoOnce />
       <HelpDoTimes />
       <HelpPropsChangeF />
+      <HelpFCallCFunc />
     </>
   )
 }

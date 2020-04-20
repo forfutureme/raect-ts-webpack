@@ -4,6 +4,7 @@
  * @Date: 2020-01-09 10:33:57
  * @Desc: 定义一些ts不认识的模块的type
  */
+/* eslint-disable no-unused-vars */
 // svg 的type
 declare module '*.svg' {
   const content: any
@@ -30,3 +31,5 @@ declare module '*.gif' {
   const content: any
   export default content
 }
+
+declare const ENV: string

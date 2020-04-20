@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="8" failures="0" time="4.697">
-  <testsuite name="测试hello里的方法" errors="0" failures="0" skipped="0" timestamp="2020-04-17T08:44:19" time="1.26" tests="2">
-    <testcase classname="测试hello里的方法 hello方法 不传参数" name="测试hello里的方法 hello方法 不传参数" time="0.002">
+<testsuites name="jest tests" tests="22" failures="0" time="3.861">
+  <testsuite name="request单元测试" errors="0" failures="0" skipped="0" timestamp="2020-04-20T10:18:01" time="1.383" tests="19">
+    <testcase classname="request单元测试 getUrl方法测试 01-getUrl默认host" name="request单元测试 getUrl方法测试 01-getUrl默认host" time="0.002">
     </testcase>
-    <testcase classname="测试hello里的方法 hello方法 传true" name="测试hello里的方法 hello方法 传true" time="0">
+    <testcase classname="request单元测试 getHeader方法测试 01-getHeader默认参数" name="request单元测试 getHeader方法测试 01-getHeader默认参数" time="0.001">
+    </testcase>
+    <testcase classname="request单元测试 getHeader方法测试 02-getHeader修改Content-Type类型" name="request单元测试 getHeader方法测试 02-getHeader修改Content-Type类型" time="0">
+    </testcase>
+    <testcase classname="request单元测试 joinParams方法测试 01-joinParams默认参数" name="request单元测试 joinParams方法测试 01-joinParams默认参数" time="0.001">
+    </testcase>
+    <testcase classname="request单元测试 joinParams方法测试 02-joinParams默认参数" name="request单元测试 joinParams方法测试 02-joinParams默认参数" time="0">
+    </testcase>
+    <testcase classname="request单元测试 joinParams方法测试 03-joinParams默认参数" name="request单元测试 joinParams方法测试 03-joinParams默认参数" time="0">
+    </testcase>
+    <testcase classname="request单元测试 headleResult方法测试 01-result-status-非200测试" name="request单元测试 headleResult方法测试 01-result-status-非200测试" time="0.006">
+    </testcase>
+    <testcase classname="request单元测试 headleResult方法测试 02-result-status-200-code非200" name="request单元测试 headleResult方法测试 02-result-status-200-code非200" time="0.001">
+    </testcase>
+    <testcase classname="request单元测试 headleResult方法测试 02-result-status-200-code非0" name="request单元测试 headleResult方法测试 02-result-status-200-code非0" time="0">
+    </testcase>
+    <testcase classname="request单元测试 headleResult方法测试 02-result-status-200-code-0" name="request单元测试 headleResult方法测试 02-result-status-200-code-0" time="0.001">
+    </testcase>
+    <testcase classname="request单元测试 headleResult方法测试 02-result-status-200-code-200" name="request单元测试 headleResult方法测试 02-result-status-200-code-200" time="0">
+    </testcase>
+    <testcase classname="request单元测试 statusError方法测试 01-挂了的返回" name="request单元测试 statusError方法测试 01-挂了的返回" time="0.013">
+    </testcase>
+    <testcase classname="request单元测试 statusError方法测试 02-401错误" name="request单元测试 statusError方法测试 02-401错误" time="0.005">
+    </testcase>
+    <testcase classname="request单元测试 statusError方法测试 02-404错误" name="request单元测试 statusError方法测试 02-404错误" time="0.003">
+    </testcase>
+    <testcase classname="request单元测试 request方法测试 01-默认测试" name="request单元测试 request方法测试 01-默认测试" time="0.142">
+    </testcase>
+    <testcase classname="request单元测试 request方法测试 02-默认测试-get" name="request单元测试 request方法测试 02-默认测试-get" time="0.033">
+    </testcase>
+    <testcase classname="request单元测试 request方法测试 03-默认测试-post" name="request单元测试 request方法测试 03-默认测试-post" time="0.04">
+    </testcase>
+    <testcase classname="request单元测试 request方法测试 02-request.get" name="request单元测试 request方法测试 02-request.get" time="0.05">
+    </testcase>
+    <testcase classname="request单元测试 request方法测试 03-request.post" name="request单元测试 request方法测试 03-request.post" time="0.029">
     </testcase>
   </testsuite>
-  <testsuite name="HelloEvent组件" errors="0" failures="0" skipped="0" timestamp="2020-04-17T08:44:19" time="1.303" tests="3">
-    <testcase classname="HelloEvent组件 测试组件渲染" name="HelloEvent组件 测试组件渲染" time="0.015">
+  <testsuite name="base类工具方法测试" errors="0" failures="0" skipped="0" timestamp="2020-04-20T10:18:01" time="2.608" tests="3">
+    <testcase classname="base类工具方法测试 createUniqueString测试 01-产生随机字串" name="base类工具方法测试 createUniqueString测试 01-产生随机字串" time="0.002">
     </testcase>
-    <testcase classname="HelloEvent组件 测试组件渲染-传了click方法" name="HelloEvent组件 测试组件渲染-传了click方法" time="0.002">
+    <testcase classname="base类工具方法测试 wait测试 01-默认时间间隔" name="base类工具方法测试 wait测试 01-默认时间间隔" time="0.506">
     </testcase>
-    <testcase classname="HelloEvent组件 测试点击方法" name="HelloEvent组件 测试点击方法" time="0.035">
-    </testcase>
-  </testsuite>
-  <testsuite name="AppExample组件测试" errors="0" failures="0" skipped="0" timestamp="2020-04-17T08:44:19" time="1.314" tests="1">
-    <testcase classname="AppExample组件测试 AppExample渲染测试" name="AppExample组件测试 AppExample渲染测试" time="0.012">
-    </testcase>
-  </testsuite>
-  <testsuite name="HelloImage测试" errors="0" failures="0" skipped="0" timestamp="2020-04-17T08:44:19" time="1.382" tests="1">
-    <testcase classname="HelloImage测试 测试渲染" name="HelloImage测试 测试渲染" time="0.014">
-    </testcase>
-  </testsuite>
-  <testsuite name="测试Hello组件" errors="0" failures="0" skipped="0" timestamp="2020-04-17T08:44:19" time="2.668" tests="1">
-    <testcase classname="测试Hello组件 测试基本渲染-他是一个div" name="测试Hello组件 测试基本渲染-他是一个div" time="0.013">
+    <testcase classname="base类工具方法测试 wait测试 01-自定义时间间隔" name="base类工具方法测试 wait测试 01-自定义时间间隔" time="1.004">
     </testcase>
   </testsuite>
 </testsuites>

@@ -32,6 +32,7 @@ module.exports = {
       '@src': path.resolve(__dirname, '../src'),
       '@assets': path.resolve(__dirname, '../src/assets'),
       '@lib': path.resolve(__dirname, '../src/lib'),
+      '@config': path.resolve(__dirname, '../src/config'),
       '@components': path.resolve(__dirname, '../src/components'),
       '@customTypes': path.resolve(__dirname, '../src/customTypes'),
       '@view': path.resolve(__dirname, '../src/view'),
